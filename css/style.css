@@ -75,3 +75,40 @@ input[type=submit]{margin:0px auto;display:block;}
 .icon:hover{background:#33CB53;}
 .icon:hover:nth-child(odd){background:#333ACB;}
 .icon:hover:last-child{background:#CB3348;}
+
+
+
+@media (min-width:992px){@keyframes bouncing{0%{bottom:0;}
+100%{bottom:50px;}
+}
+.arrow{bottom:10%;position:absolute;left:50%;}
+.arrow a{animation:bouncing 0.5s cubic-bezier(.1,.25,.1,1) 0s infinite alternate both;font-size:25px;border:solid 1px #fff;border-radius:300px;display:inline-block;color:white;cursor:pointer;font-weight:300;padding:11px;position:relative;text-decoration:none;text-transform:uppercase;vertical-align:top;}
+}
+@media (min-width:768px) and (max-width:991px){.carousel-caption{padding-bottom:22%;}
+.carousel-caption h1{font-size:45px;}
+}
+@media (max-width:767px){.navbar{background:rgba(47, 47, 47, 0.9);}
+.navbar-default .navbar-toggle{}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{background-color:rgba(255,215,0,0.3);}
+.navbar-default .navbar-toggle .icon-bar{background-color:#ecf0f1;}
+.carousel-caption{padding-bottom:18%;}
+.carousel-caption h1{font-size:20px;}
+.gold-text{font-size:24px;padding:0 1px;}
+.main-text{padding:0 1px;font-size:28px;font-weight:700;}
+.low-text{font-size:15px;padding:0;margin:0;}
+.arrow{display:none;}
+.restaurant-main-info h1,.restaurant-main-info p{padding:0px;}
+.restaurant-main-info p{padding-top:10px;text-align:left;font-size:14px;}
+.menu-list{padding:5px;}
+.menu-list p{font-size:13px;font-weight:700;}
+.container{width:100%;}
+.restaurant-main-block{padding:0px;}
+.button{border:solid #CECECE 1px;padding:10px 15px;font-size:16px;font-weight:700;color:#000;transition:0.5s;}
+.low-text{text-align:justify;text-indent:20px;}
+.reservation-block{background-image:none;background-color:#f2f0ee;min-height:550px;}
+.restaurant-main-list-of-menu{background-image:none;background-color:#f2f0ee;min-height:550px;}
+.reservation-info h1{font-size:30px;}
+.reservation-info h2{font-size:20px;}
+.reservation-halls{padding:0;}
+}
